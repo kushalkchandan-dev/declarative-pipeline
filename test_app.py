@@ -11,7 +11,7 @@ class FlaskAppTest(unittest.TestCase):
 
         self.assertEqual(response.status_code, 200)
         self.assertIn(
-            b"This message is intentionally wrong!",
+            b"Flask CI/CD Pipeline is working!",
             response.data
         )
 
